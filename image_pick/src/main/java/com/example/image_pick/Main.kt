@@ -1,13 +1,17 @@
 package com.example.image_pick
 
 import android.content.Context
+import android.os.Bundle
 import android.widget.Toast
-import androidx.compose.material.Text
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 
-class Main {
-    fun Click(context: Context){
-        Toast.makeText(context,"Hi",Toast.LENGTH_SHORT)
-    }
 
+object Main {
+    val Text = "Texxxt"
 }
+

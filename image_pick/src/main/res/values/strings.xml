@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_prompt">Пожалуйста, предоставьте доступ к разрешениям, чтобы помочь нам работать лучше.</string>
+    <string name="permission_prompt_button">Далее</string>
+    <string name="permissions_rationale">В разрешении отказано. Пожалуйста, предоставьте доступ в настройках, чтобы использовать это приложение.</string>
+    <string name="open_settings">Открыть настройки</string>
+</resources>
