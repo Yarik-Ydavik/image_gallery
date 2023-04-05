@@ -22,6 +22,8 @@ import androidx.compose.ui.unit.dp
 import com.example.image_gallery.ui.theme.Image_galleryTheme
 import com.example.image_pick.Main
 import com.example.image_pick.MyApp
+import com.example.image_pick.PickConfiguration
+import com.example.image_pick.ui.Pick
 import com.example.image_pick.ui.permission.Permission
 
 class MainActivity : ComponentActivity() {
@@ -42,7 +44,10 @@ class MainActivity : ComponentActivity() {
                         Manifest.permission.READ_EXTERNAL_STORAGE
                     ),
                     goToAppSettings = { goToAppSettings() }) {
-                    Text(text = "")
+                    Pick(
+                        pickConfiguration = PickConfiguration(false),
+                        onPhotoSelected ={}
+                    )
                 }
             }
         }

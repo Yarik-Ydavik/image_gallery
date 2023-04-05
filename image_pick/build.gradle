@@ -62,7 +62,7 @@ afterEvaluate {
 
                 groupId = 'com.github.Yarik-Ydavik'
                 artifactId = 'image_gallery'
-                version = '1.3'
+                version = '1.4'
             }
         }
     }
