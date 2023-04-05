@@ -14,4 +14,7 @@ import androidx.compose.ui.Modifier
 object Main {
     val Text = "Texxxt"
 }
-
+@Composable
+fun MyApp() {
+    Text("Pidor")
+}
